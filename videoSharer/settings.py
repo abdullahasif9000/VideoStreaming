@@ -25,8 +25,9 @@ SECRET_KEY = '6b&o&jtjk+@byvp7q^4&c7l)^dwwdojz2g!24ts%7+&stx@4wr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['videostreamings.azurewebsites.net']
+
 CSRF_COOKIE_SECURE = True
+ALLOWED_HOSTS = ['*']
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
