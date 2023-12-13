@@ -27,7 +27,7 @@ DEBUG = True
 
 
 CSRF_COOKIE_SECURE = True
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://videostreamings.azurewebsites.net']
 ALLOWED_HOSTS = ['*']
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
